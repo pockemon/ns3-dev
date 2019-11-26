@@ -11,7 +11,7 @@ cpp_examples = [
     ("icmpv6-redirect", "True", "True"),
     ("ping6", "True", "True"),
     ("radvd", "True", "True"),
-    ("radvd-two-prefix", "True", "True"),    
+    ("radvd-two-prefix", "True", "True"),
     ("test-ipv6", "True", "True"),
 ]
 
@@ -21,4 +21,7 @@ cpp_examples = [
 #     (example_name, do_run).
 #
 # See test.py for more information.
-python_examples = []
+python_examples = [
+    ("radvd.py", "True"),
+    ("wsn-ping6.py", "True"),
+]
